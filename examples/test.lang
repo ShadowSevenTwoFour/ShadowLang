@@ -1,0 +1,10 @@
+let x be 20
+if x < 30 {
+    shout "x is less than 30"
+    let y be 50
+    if y > x {
+        shout "y is greater than x"
+    }
+} else {
+    shout "x is not less than 30"
+}
